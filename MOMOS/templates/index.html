@@ -1,0 +1,224 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <main class="main">
+
+    <!-- Hero Section -->
+     {% include 'home/HeroSection.html' %}
+   
+    <!-- Clients Section -->
+
+    {% include 'home/whyus.html' %}
+    
+    <div class="container-fluid p-0">
+      <div style="text-align: center;">
+          <h3><span style="color: orange;">We Offer People</span> The Service They Want</h3>
+      </div>
+      
+      <div class="position-relative">
+      <img src="{% static './static/assets/img/services.jpg' %}" alt="Full Width Image" class="full-width-image">
+      <div class="image-text">
+          <h3>Process Behind the making</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p> 
+          <div class="row">
+              <div class="col-md-4 offset-md-3">
+              <button type="button" class="btn btn-success btn-block mb-2" style="border-radius: 15px; width: 200px;"><i class="fas fa-play pr-2"></i> Watch the video</button>
+
+              </div>
+          </div>
+      </div>
+      <div>
+          <br><br>
+      </div>
+
+
+  </div>
+  <div class="container" style="text-align: center;">
+      <div id="round_img" class="row">
+          <div class="col-md-4">
+              <img src="services.jpg" alt="firstimg">
+
+              <h2>Quality Food</h2>
+              <br>
+              <p>Only the best food with top Quality products and ingredients</p>
+          </div>   
+          <div class="col-md-4">
+              <img src="services.jpg" alt="firstimg">
+               <h2>Quality Food</h2>
+               <br>
+               <p>Only the best food with top Quality products and ingredients</p>
+          </div> 
+          <div class="col-md-4">
+              <img src="services.jpg" alt="firstimg">
+              <h2>Quality Food</h2>
+              <br>
+              <p>Only the best food with top Quality products and ingredients</p>
+          </div>      
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-md-4 offset-md-5">
+          <button type="button" class="btn btn-success btn-block mb-2" style="border-radius: 15px; width: 200px;">Explore Our Services -></button>
+
+          </div>
+      </div>
+  </div>
+  <br>
+  <hr><br>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-md-5 offset-md-1">
+              <h3>200+ <span style="color: orange;">Happy Customers</span></h3>
+              <h5><span style="color: green;">What our Customers say about us</span></h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro pariatur cum qui saepe eaque nihil nostrum, consequuntur vel laboriosam! Ab quos iste ducimus rem beatae dolorum quidem. Modi, tempora exercitationem.</p>
+              <h3><b>Liva Dias</b></h3>
+              <br>
+              <button type="button" style="border-radius: 20px;"><i class="fa-solid fa-arrow-left"></i></button>
+              <button type="button"  style="border-radius: 20px;"><i class="fa-solid fa-arrow-right"></i></button>
+
+          </div>
+          <div class="col-md-4 offset-md-2">
+              <img src="services.jpg" alt="" style="width: 300px; height: 320px;">
+              
+          </div>
+      </div>
+  </div>
+  <br>
+  <hr>
+ 
+
+
+  <div class="container mt-4">
+      <div class="row">
+          <div class="col-md-6 offset-md-4" style="text-align: center;">
+              <h3>Get <span style="color: orange;">In Touch</span></h3>
+              <h6><span style="color: green;">Our Friendly team would love to hear from you</span></h6>
+          </div>
+      </div>
+      <hr>
+
+      <div class="row">
+          <div class="col-md-3 offset-md-1  bg-success " style="color: aliceblue; border-radius: 18px;">
+              <br>
+              <h6>Our Address</h5>
+              <p>New Baneshor, Kathmandu, Bagmati, <br>Nepal</p>
+
+              <h6>Our Contacts</h6>
+              <div class="row">
+                  <div class="col">
+                      <b>Mobile</b>
+                      <p>9800000000</p>
+                  </div>
+                  <div class="col">
+                      <b>Landline</b>
+                      <p>01-2600</p>
+                  </div>
+              </div>
+
+              <h6>Our Service Time</h6>
+
+              <div class="row">
+                  <div class="col">
+                      <h6>MON - FRI</h6>
+                      <p>10 am - 8 pm</p>
+                  </div>
+                  <div class="col">
+                      <h6>SAT - SUN</h6>
+                      <p>Closed</p>
+                  </div>
+
+                  
+              </div>
+              
+
+              <div class="row mt-4 ml-1">
+                  <p>Get in touch in social networks</p>
+
+              </div>
+
+
+
+              
+          </div>
+
+          <div class="col-md-5 offset-md-2"">
+              <form action="">
+                  <div class="row">
+                      <div class="col">
+                          <label for="fname">First Name</label><br>
+                          <input type="text">
+                      </div>
+                      <div class="col">
+                          <label for="fname">last Name</label><br>
+                          <input type="text">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-6">
+                          <label for="email">Email</label>
+                          <input type="email" size="53px">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                          <label for="choose" style="text-align: left;">What can we do for you</label>
+                          <select class="form-control" id="exampleDropdown" name="exampleDropdown">
+                              <option value="option1">Option 1</option>
+                              <option value="option2">Option 2</option>
+                              <option value="option3">Option 3</option>
+                              <option value="option4">Option 4</option>
+                              <option value="option5">Option 5</option>
+                            </select>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                          <label for="number">Phone Number</label>
+                          <select class="form-control" id="countryCode" name="countryCode">
+                              <option value="+1">+977 (Nep)</option>
+                              <option value="+1">+1 (USA)</option>
+                              <option value="+44">+44 (UK)</option>
+                              <option value="+91">+91 (India)</option>
+                              <!-- Add more options as needed -->
+                          </select>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col">
+                          <label for="message">Message</label><br>
+                          <textarea name="message" id="message" style="width: 500px; height: 150px;"></textarea>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col">
+                          <button type="button" style="width: 150px; background-color: orange; border-radius: 20px;">Send Message</button>
+                      </div>
+                  </div>
+              </form>
+              
+              
+          </div>
+      </div>
+  </div>
+
+  <div class="container pt-4">
+      <div class="col-12">
+        <iframe src="https://www.google.com.np/maps/place/Everest+MoMo+Center/@27.7108209,85.3280365,20.75z/data=!4m14!1m7!3m6!1s0x39eb19094f7a4347:0x4745fda4e995a630!2sEverest+MoMo+Center!8m2!3d27.7108434!4d85.3282953!16s%2Fg%2F11b6j2ylw5!3m5!1s0x39eb19094f7a4347:0x4745fda4e995a630!8m2!3d27.7108434!4d85.3282953!16s%2Fg%2F11b6j2ylw5?entry=ttu" frameborder="0"></iframe>
+      </div>
+  </div>
+
+
+
+
+  
+
+
+
+
+  
+
+{% endblock %}
